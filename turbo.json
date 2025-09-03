@@ -11,5 +11,27 @@
     },
     "lint": {},
     "test": {}
+  },
+  "boundaries": {
+    "tags": {
+      "app": {
+        "dependencies": {
+          "allow": ["feature", "page", "shared"],
+          "deny": ["app"]
+        }
+      },
+      "page": {
+        "dependencies": {
+          "allow": ["feature", "shared"],
+          "deny": ["page", "app"]
+        }
+      },
+      "feature": {
+        "dependencies": {
+          "allow": ["shared"],
+          "deny": ["feature", "page", "app"]
+        }
+      }
+    }
   }
 }

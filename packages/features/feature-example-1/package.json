@@ -7,7 +7,6 @@
   "scripts": {
     "build": "tsc -p tsconfig.json",
     "dev": "tsx watch src/index.ts",
-    "lint": "echo 'no lint configured'",
-    "test": "echo 'no tests'"
+    "check-type": "tsc --noEmit"
   }
 }

@@ -6,8 +6,7 @@
   "scripts": {
     "dev": "tsx src/index.ts",
     "build": "tsc -p tsconfig.json",
-    "lint": "echo 'no lint configured'",
-    "test": "echo 'no tests'"
+    "check-type": "tsc --noEmit"
   },
   "dependencies": {
     "shared": "workspace:*"

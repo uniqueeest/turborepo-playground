@@ -24,6 +24,14 @@ importers:
         specifier: workspace:*
         version: link:../../packages/shared
 
+  packages/features/feature-example-1: {}
+
+  packages/features/feature-example-2: {}
+
+  packages/pages/page-example-1: {}
+
+  packages/pages/page-example-2: {}
+
   packages/shared: {}
 
 packages:

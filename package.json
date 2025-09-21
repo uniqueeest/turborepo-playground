@@ -10,8 +10,8 @@
   "scripts": {
     "build": "turbo run build",
     "dev": "turbo run dev",
-    "lint": "turbo run lint",
-    "test": "turbo run test",
+    "check-type": "turbo run check-type",
+    "check-type:changed-only": "turbo run check-type --filter=[origin/main]",
     "clean": "turbo run clean || true",
     "boundaries": "turbo boundaries"
   },

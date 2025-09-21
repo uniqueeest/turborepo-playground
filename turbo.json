@@ -9,8 +9,10 @@
       "cache": false,
       "persistent": true
     },
-    "lint": {},
-    "test": {}
+    "check-type": {
+      "dependsOn": ["^check-type"],
+      "outputs": []
+    }
   },
   "boundaries": {
     "tags": {

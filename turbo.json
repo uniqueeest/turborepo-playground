@@ -11,6 +11,7 @@
     },
     "check-type": {
       "dependsOn": ["^check-type"],
+      "inputs": ["$TURBO_DEFAULT$", "!pnpm-lock.yaml"],
       "outputs": []
     }
   },

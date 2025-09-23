@@ -11,7 +11,7 @@
     "build": "turbo run build",
     "dev": "turbo run dev",
     "check-type": "turbo run check-type",
-    "check-type:changed-only": "turbo run check-type --filter=[origin/main]",
+    "check-type:changed-only": "turbo run check-type --filter=[origin/main] --filter=...[origin/main] --filter=[origin/main]...",
     "clean": "turbo run clean || true",
     "boundaries": "turbo boundaries"
   },
